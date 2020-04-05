@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  background-color: #334;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+* {
+  font-family: monospace
+}
+
+main {
+  display: flex;
+}
+
+button+button {
+  margin-left: 1em;
+}
+
+button {
+  background: #334;
+  border: 1px solid lightblue;
+  color: lightblue;
+  font-size: 16pt;
+  padding: 0.5em 3em;
+  cursor: pointer;
+}
+
+button:hover {
+  background: lightblue;
+  color: #334;
+  border: 1px solid transparent;
+}
